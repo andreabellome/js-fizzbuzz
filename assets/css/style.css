@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.box{
+    width: calc(100% / 5 - 5px);
+    aspect-ratio: 1;
+    background-color: lightcoral;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+    border: 1px solid black;
+}
+
+.box-green{
+    background-color: lightgreen;
+}
+
+.box-blue{
+    background-color: lightblue;
+}
+
+.box-yellow{
+    background-color: lightyellow;
+}
